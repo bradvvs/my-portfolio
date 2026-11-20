@@ -1,13 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Site name goes here</title>
+  <title>My Portfolio</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
     <h1>My Portfolio</h1>
     <nav>
@@ -18,34 +20,86 @@
   </header>
 
   <main>
-    <section>
-      <h2>Who this site is for</h2>
-      <p>This site is for potential employers.</p>
+
+    <section class="profile">
+      <img src="my-picture.jpg" alt="My profile picture" class="profile-pic">
+      <h2>Hello, I'm [Bradley]!</h2>
+      <p>Welcome to my personal portfolio. Get to know me, my interests and my work!</p>
     </section>
 
     <section>
-      <h2>What you can find here</h2>
+      <h2>About Me</h2>
+      <p>I'm a creative and passionate person who enjoys learning new things and exploring technology.</p>
+    </section>
+
+    <!-- MY LIKINGS -->
+    <section class="interests">
+      <h2>Things I Love ❤️</h2>
+      <p>Here are some of my favourite things and hobbies.</p>
+
+      <div class="interest-grid">
+
+        <div class="interest-card">
+          <img src="coding.jpg" alt="Coding">
+          <h3>💻 Coding</h3>
+          <p>I enjoy creating websites and learning new programming skills.</p>
+        </div>
+
+        <div class="interest-card">
+          <img src="music.jpg" alt="Music">
+          <h3>🎵 Music</h3>
+          <p>I love listening to music and discovering new songs.</p>
+        </div>
+
+        <div class="interest-card">
+          <img src="gaming.jpg" alt="Gaming">
+          <h3>🎮 Gaming</h3>
+          <p>I enjoy playing games and having fun.</p>
+        </div>
+
+        <div class="interest-card">
+          <img src="photography.jpg" alt="Photography">
+          <h3>📸 Photography</h3>
+          <p>I like capturing interesting moments and beautiful things.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>What You Can Find Here</h2>
       <ul>
         <li>Things I enjoy</li>
         <li>Things I have made</li>
-        <li>What I learned from each one</li>
+        <li>What I learned from each project</li>
       </ul>
     </section>
 
     <section>
-      <h2>My goals</h2>
+      <h2>My Goals</h2>
       <button id="toggle-button">Show my goals for next year</button>
       <div id="details" hidden>
-        <p>Your goals for next year go here. Three short goals work well.</p>
+        <p>1. Improve my coding skills.</p>
+        <p>2. Build amazing websites.</p>
+        <p>3. Become a better developer.</p>
       </div>
     </section>
+
+    <section>
+      <h2>My Work</h2>
+      <img src="project1.jpg" alt="My first project" width="250">
+      <h3>My First Project</h3>
+      <p>A project I created while learning web development.</p>
+    </section>
+
   </main>
 
   <footer>
-    <p>Made by [your first name] in Pathfinder: Web Creator, 2026. Sources are on the About me page.</p>
+    <p>Made by [Your Name] in Pathfinder: Web Creator, 2026.</p>
   </footer>
 
   <script src="data.js"></script>
   <script src="script.js"></script>
+
 </body>
 </html>
